@@ -15,46 +15,23 @@ ol {
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
-  letter-spacing: 0.02em;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
 }
 .half-logo {
   color: #2e2f42;
 }
-.studio-item {
+.link-item {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.studio-item:hover,
-.studio-item:focus,
-.studio-item:active {
-  color: #404bbf;
-}
-.portfolio-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.portfolio-item:hover .portfolio-item:focus,
-.portfolio-item:active {
-  color: #404bbf;
-}
-.contacts-item {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 24px;
-  letter-spacing: 0.02em;
-  color: #2e2f42;
-}
-.contacts-item:hover,
-.contacts-item:focus,
-.contacts-item:active {
+.link-item:hover,
+.link-item:focus,
+.link-item:active {
   color: #404bbf;
 }
 .phone-mail-box {
@@ -106,7 +83,8 @@ ol {
 .preferences-title {
   font-weight: 500;
   font-size: 20px;
-  letter-spacing: 0.4em;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 .preferences-desc {
@@ -120,10 +98,16 @@ ol {
   background-color: #f4f4fd;
 }
 .team-name-title {
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.72em;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
   color: #2e2f42;
+}
+.team-card-item {
+  background-color: #ffffff;
 }
 .name-title {
   font-weight: 500;
@@ -150,9 +134,7 @@ ol {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.team-card-item {
-  background-color: #ffffff;
-}
+
 .card-title {
   font-weight: 500;
   font-size: 20px;
